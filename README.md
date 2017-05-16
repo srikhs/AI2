@@ -11,4 +11,4 @@ I created 4 agents as the part of this course
 3. Goal Based Agent:
          Here, the search branch out on agent actions and possible following observation and based on that the decisions were made by agent
 4. Reinforcement Learning:
-         Evolution stratergy technique was used instead of the traditional reinforcement learning technique here. Based on that, the agent of learning and was taking the optimal action necessary
+         Evolution strategy  technique was used instead of the traditional reinforcement learning technique here. Based on that, the agent of learning and was taking the optimal action necessary
