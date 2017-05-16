@@ -1,0 +1,31 @@
+Wumpus-Lite
+A lightweight Java-based Wumpus World Simulator
+
+To download the latest version of Wumpus-Lite (v0.18a), click here.
+
+
+To build simulator: ~> javac WorldApplication.java
+ 
+To run simulator: ~> java WorldApplication -[options]
+   	Command-line options available:
+   	-d <dimension>	: sets the dimensions of the Wumpus World to be dimension x dimension. Default: 4 (a 4x4 world)
+   	-s <steps>	: sets the maximum number of time steps. Default: 50
+   	-t <trials>	: sets the number of trials. Default: 1
+   	-a <randAgent>	: sets whether the agent's location and orientation is randomly generated. Default: true
+   	-r <seed>	: sets the seed for the random Wumpus World generator. Default: (random integer)
+   	-f <filename>	: sets the filename for the output file (containing the terminal output). Default: wumpus_out.txt
+   	-n <nonDeterm>	: sets whether the agent's GO_FORWARD action behavior is non-deterministic. Default: true
+	-p <printBoard>	: sets whether the terminal will print out the environment along with the actions. When off, will still print final score Default: true
+ 
+NOTE: modify AgentFunction.java to implement your own agent.
+
+
+Gameplay Legend:
+   	P - Pit
+   	W - live Wumpus
+   	* - dead Wumpus
+   	G - Gold
+   	A - agent facing North
+	> - agent facing East
+	V - agent facing South
+	< - agent facing West
